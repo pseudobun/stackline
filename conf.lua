@@ -8,7 +8,7 @@ c.features = {}
 c.advanced = {}
 
 -- Paths
-c.paths.yabai                         = '/usr/local/bin/yabai'
+c.paths.yabai                         = '/opt/homebrew/bin/yabai'
 
 -- Appearance
 c.appearance.color                    = { white = 0.90 }    -- Indicator background color, e.g., {red = 0.5, blue = 0 }
@@ -16,7 +16,7 @@ c.appearance.alpha                    = 1                   -- Opacity of active
 c.appearance.dimmer                   = 2.5                 -- Higher numbers increase contrast b/n focused & unfocused state
 c.appearance.iconDimmer               = 1.1                 -- Higher numbers dim inactive icons *less* than the non-icon indicators
 c.appearance.showIcons                = true                -- Window indicator style ('lozenge'-shaped when false)
-c.appearance.size                     = 32                  -- Size of window indicators (height when icons off)
+c.appearance.size                     = 24                  -- Size of window indicators (height when icons off)
 c.appearance.radius                   = 3                   -- Indicator roundness. Higher numbers → *less* roundness… I'm sorry
 c.appearance.iconPadding              = 4                   -- Space between icon & indicator edge. Higher numbers → smaller, more inset icons
 c.appearance.pillThinness             = 6                   -- Aspect ratio of pill-style icons (width = size / pillThinness)
@@ -41,6 +41,6 @@ c.features.fzyFrameDetect.fuzzFactor  = 30                  -- Window frame dime
 c.features.winTitles                 = 'not_implemented'    -- Valid options: false, true, 'when_switching', 'not_implemented'
 c.features.dynamicLuminosity         = 'not_implemented'    -- Valid options: false, true, 'not_implemented'
 
-c.advanced.maxRefreshRate             = 0.5                 -- How aggressively to refresh Stackline. Higher = slower response time + less battery drain
+c.advanced.maxRefreshRate             = 0.1                 -- How aggressively to refresh Stackline. Higher = slower response time + less battery drain
 
 return c
