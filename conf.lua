@@ -16,7 +16,7 @@ c.appearance.alpha                    = 1                   -- Opacity of active
 c.appearance.dimmer                   = 2.5                 -- Higher numbers increase contrast b/n focused & unfocused state
 c.appearance.iconDimmer               = 1.1                 -- Higher numbers dim inactive icons *less* than the non-icon indicators
 c.appearance.showIcons                = true                -- Window indicator style ('lozenge'-shaped when false)
-c.appearance.size                     = 24                  -- Size of window indicators (height when icons off)
+c.appearance.size                     = 21                  -- Size of window indicators (height when icons off)
 c.appearance.radius                   = 3                   -- Indicator roundness. Higher numbers → *less* roundness… I'm sorry
 c.appearance.iconPadding              = 4                   -- Space between icon & indicator edge. Higher numbers → smaller, more inset icons
 c.appearance.pillThinness             = 6                   -- Aspect ratio of pill-style icons (width = size / pillThinness)
